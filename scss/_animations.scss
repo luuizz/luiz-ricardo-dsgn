@@ -1,0 +1,52 @@
+@keyframes slide-in {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 3%;
+    }
+}
+
+@keyframes slide-back {
+    0% {
+       left: 3%; 
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animeLeft {
+    100% {
+        opacity: 1;
+        transform: initial;
+    }
+}
